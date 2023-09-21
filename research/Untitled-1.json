@@ -1,0 +1,116 @@
+{
+    "checksum": "tSnr",
+    "created_at": {
+        "$date": 1695305504133
+    },
+    "details": {
+        "delivery_info": {
+            "alias": "Work",
+            "delivery_information_id": "6295d4465625552ffa118647",
+            "favourite_type": "work",
+            "location": {
+                "address": "Yitzhak Sadeh Street 8",
+                "city": "Tel Aviv-Yafo",
+                "coordinates": {
+                    "coordinates": [
+                        34.78552881628275,
+                        32.065552401342934
+                    ],
+                    "type": "Point"
+                }
+            },
+            "manual_override": false,
+            "use_last_100m_address_picker": false
+        },
+        "delivery_method": "homedelivery",
+        "emoji": "burger",
+        "name": "Idan and friends",
+        "split_payment": false,
+        "venue_id": "5c92064e38bff3000b58f5ca"
+    },
+    "host_id": "5c1510280c2215000bb6ac67",
+    "id": "650c4f2041a6ee95d1fb7ead",
+    "locked": false,
+    "modified_at": {
+        "$date": 1695306020211
+    },
+    "participants": [
+        {
+            "basket": {
+                "comment": "",
+                "item_change_log": [],
+                "items": [
+                    {
+                        "baseprice": 3200,
+                        "checksum": "8939b2dcf916cd5ea05a859745788d9a",
+                        "count": 1,
+                        "end_amount": 3200,
+                        "id": "636771af3efbfb51bc6db845",
+                        "options": [
+                            {
+                                "id": "638d9ac07a0f3f43dbcfc48c",
+                                "values": [
+                                    {
+                                        "count": 1,
+                                        "external_id": "638d9a99e5dd28b15cf611ec",
+                                        "id": "638d9a99e5dd28b15cf611ec",
+                                        "price": 0
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "636771df1ac841533648f079",
+                                "values": []
+                            }
+                        ]
+                    },
+                    {
+                        "baseprice": 3000,
+                        "checksum": "e04e4a554a0970543e4e7d61032c3a15",
+                        "count": 1,
+                        "end_amount": 3000,
+                        "id": "64f88d219f27f7a372ddb2a3",
+                        "options": []
+                    }
+                ],
+                "items_missing": []
+            },
+            "first_name": "Idan",
+            "last_name": "Dardikman",
+            "profile_picture_url": "https://s3.eu-west-1.amazonaws.com/creditornotmedia/60bef77d0620c23dd24999061e1da3c109be5fd9b567670f8cc4c5d2816cfded7c40a1ed091b2acec8c585aee96eee693c7f13c988881e27f8e205abd3e02ca0",
+            "status": "ready",
+            "subscribed": true,
+            "user_id": "5c1510280c2215000bb6ac67"
+        },
+        {
+            "basket": {
+                "comment": "",
+                "item_change_log": [],
+                "items": [
+                    {
+                        "baseprice": 2800,
+                        "checksum": "336fcf26ec25934902048446d52aaf76",
+                        "count": 1,
+                        "end_amount": 2800,
+                        "id": "6391cfc3ba6d1533c38a3c26",
+                        "name": "Fresh-SHI-SHI",
+                        "options": [],
+                        "substitution_settings": {
+                            "allowed_items": [],
+                            "is_allowed": true
+                        }
+                    }
+                ],
+                "items_missing": []
+            },
+            "first_name": "Dalia",
+            "last_name": "Wolf",
+            "profile_picture_url": "https://s3.eu-west-1.amazonaws.com/creditornotmedia/b8c5c1a5422c68b9d8e0c917d88e8b647488f858052b7b722902d8c8d17c58ad1a73ded4200408d910f8aabff4e29dad31b6f8b38ed2a14f91d1c64feeb357ee",
+            "status": "ready",
+            "subscribed": true,
+            "user_id": "5c76f9a182dbbf000df93d97"
+        }
+    ],
+    "status": "active",
+    "url": "https://wolt.com/group/4UEZAVNZ"
+}

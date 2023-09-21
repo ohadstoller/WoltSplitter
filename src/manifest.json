@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "WoltSplitter",
+  "description": "",
+  "version": "1.0",
+  "author": "Ohad Stoller & Idan Dardikman",
+
+  "action": { "default_popup": "popup.html" },
+  "permissions": ["notifications", "storage"],
+
+  "icons": {
+    "16": "images/icons/16.png",
+    "19": "images/icons/19.png",
+    "38": "images/icons/38.png",
+    "64": "images/icons/64.png",
+    "128": "images/icons/128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://wolt.com/*/group-order/*/checkout"],
+      "js": ["content.js"]
+    }
+  ]
+}
