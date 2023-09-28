@@ -1,0 +1,35 @@
+// Request:
+{
+  "woltNames": [
+    "name a",
+    "name b",
+    "name c",
+    "name d"
+  ],
+  "cibusNames": [
+    "name b",
+    "name c",
+    "name c"
+  ]
+}
+
+// Response:
+{
+  "matches": [
+    {
+      "wolt": "name a",
+      "cibus": "name a"
+    },
+    {
+      "wolt": "name b",
+      "cibus": "name b"
+    },
+    {
+      "wolt": "name c",
+      "cibus": "name c"
+    }
+  ],
+  "notFound": [
+    "name d"
+  ]
+}
