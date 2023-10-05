@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f75ab6e-0fea-4146-9b37-2e2edfd2e7e8" name="Changes" comment="change src dir to client">
+      <change afterPath="$PROJECT_DIR$/firebase-server/functions/src/instruction.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/firebase-server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase-server/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase-server/firebase.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase-server/functions/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/firebase-server/functions/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase-server/functions/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase-server/functions/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase-server/functions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase-server/functions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase-server/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase-server/functions/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/research/requestExample.json" beforeDir="false" afterPath="$PROJECT_DIR$/research/requestExample.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2W16hQSikNRRfsQYgnBUNkwiW6b" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ohadstoller/WoltSplitter/firebase-server/functions&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/ohadstoller/WoltSplitter/firebase-server/functions/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;ECMAScript 6&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/firebase-server/functions" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="lint" />
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.serve">
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/firebase-server/functions/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/firebase-server/functions/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/firebase-server/functions/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.serve" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.lint" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f75ab6e-0fea-4146-9b37-2e2edfd2e7e8" name="Changes" comment="" />
+      <created>1695887857553</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695887857553</updated>
+      <workItem from="1695887858987" duration="5043000" />
+      <workItem from="1696167421834" duration="206000" />
+      <workItem from="1696167741200" duration="701000" />
+      <workItem from="1696168464195" duration="22330000" />
+      <workItem from="1696513506104" duration="2796000" />
+      <workItem from="1696518417579" duration="4447000" />
+    </task>
+    <task id="LOCAL-00001" summary="add request example json">
+      <option name="closed" value="true" />
+      <created>1695913087759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695913087759</updated>
+    </task>
+    <task id="LOCAL-00002" summary="remove action in manifest">
+      <option name="closed" value="true" />
+      <created>1695913134295</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695913134295</updated>
+    </task>
+    <task id="LOCAL-00003" summary="change src dir to client">
+      <option name="closed" value="true" />
+      <created>1696238165785</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696238165786</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add request example json" />
+    <MESSAGE value="remove action in manifest" />
+    <MESSAGE value="change src dir to client" />
+    <option name="LAST_COMMIT_MESSAGE" value="change src dir to client" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/firebase-server/functions/src/index.ts</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

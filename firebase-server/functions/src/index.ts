@@ -1,19 +1,38 @@
-/**
- * Import function triggers from their respective submodules:
- *
- * import {onCall} from "firebase-functions/v2/https";
- * import {onDocumentWritten} from "firebase-functions/v2/firestore";
- *
- * See a full list of supported triggers at https://firebase.google.com/docs/functions
- */
-
-import {onRequest} from "firebase-functions/v2/https";
+import OpenAI from "openai";
 import * as logger from "firebase-functions/logger";
+import {instructionWithExample} from "./instruction";
+import {runWith} from "firebase-functions";
+import {isNil} from "lodash";
 
-// Start writing functions
-// https://firebase.google.com/docs/functions/typescript
+export const matchBetweenProfiles = runWith({secrets: ["OPENAI_API_KEY"]}).
+  https.onRequest(async (request, response) => {
+    try {
+      const apiKey = process.env.OPENAI_API_KEY;
+      const openai = new OpenAI({
+        apiKey,
+      });
 
-// export const helloWorld = onRequest((request, response) => {
-//   logger.info("Hello logs!", {structuredData: true});
-//   response.send("Hello from Firebase!");
-// });
+      const chatResponse = await openai.chat.completions.create({
+        model: "gpt-3.5-turbo",
+        messages:
+            [{"role": "system", "content": "You are a helpful assistant."},
+              {
+                "role": "user",
+                "content": `${instructionWithExample} ${(request.body)} 
+          provide your response in JSON format`,
+              },
+            ],
+      });
+
+      if (!isNil(chatResponse?.choices)) {
+        response.send(chatResponse.choices[0].message.content);
+      } else {
+        response.send("Something went wrong with the assertion");
+      }
+    } catch (error) {
+      logger.error(error, {structuredData: true});
+      response.send(error);
+    }
+  });
+
+
